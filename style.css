@@ -48,7 +48,7 @@ body {
 
 .container ul {
     padding-left: 18px;
-    list-style: square;
+    list-style-image: url(Images/tick.png);
 
 }
 
