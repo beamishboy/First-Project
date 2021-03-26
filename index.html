@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>HTML Reference Page</title>
+		<title>HTML Practice Page</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
@@ -12,30 +12,33 @@
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			<em>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 			consequat. </em></p>
-			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
-				<br />
-			<a href="https://news.google.co.in" target="_blank">Google news here</a> <br/>
-			<strong>Excepteur sint occaecat cupidatat non	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></p>
-
-			<p>Here's a bulleted list</p>
+			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+			<p> <a href="https://news.google.co.in" target="_blank">Google news here</a></p> 
+			<p><strong>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></p>
+			
+			<div class = "container darkbox">
+			<h3>Here's a bulleted list</h3>
 			<ul>
 				<li>one thing</li>
 				<li>another thing</li>
 				<li>yet another thing</li>
 				<li>still another thing</li>
 			</ul>
-			<p>And here's a list with numbers</p>
+			</div>
+
+			<div class = "container lightbox">
+			<h3>And here's a list with numbers</h3>
 			<ol>
 				<li>One thing</li>
 				<li>Second thing</li>
 				<li>Next thing</li>
 				<li>Last thing</li>
 			</ol>
-
-			<br>
-			<hr>
-			<br>
-			<p>Here comes a table</p>
+			</div>
+		
+			<div class=clearfix>  </div>
+			<div class=tablecontainer>
+			<h3>Here comes a table</h3>
 			<table>
 				<thead>
 					<th>Name</th>
@@ -43,26 +46,27 @@
 					<th>Remarks</th>
 				</thead>
 				<tr>
-					<td>Antony Blinken	</td>
+					<td> <a href="https://en.wikipedia.org/wiki/Antony_Blinken">Antony Blinken</a> </td>
 					<td>Politics</td>
 					<td>Mediocre</td>
 				</tr>
 				<tr>
-					<td>Ludwig Wittgenstein</td>
+					<td> <a href="https://en.wikipedia.org/wiki/Ludwig_Wittgenstein">Ludwig Wittgenstein</a> </td>
 					<td>Philosophy</td>
 					<td>Exceptional</td>
 				</tr>
 				<tr>
-					<td>Joe</td>
+					<td> <abbr title="Joe the Plumber">Joe</abbr> </td>
 					<td>Plumbing</td>
 					<td>Excellent</td>
 				</tr>
 				<tr>
-					<td><abbr title = "Vengipurappu Venkata Sai Laxman">VVS Laxman</abbr></td>
+					<td><a href="https://en.wikipedia.org/wiki/VVS_Laxman">VVS Laxman</a> </td>
 					<td>Cricket</td>
 					<td>Very Very Special</td>
 				</tr>
 			</table>
+			</div>
 
 			<hr>
 			<form action = process.php method = "POST">
