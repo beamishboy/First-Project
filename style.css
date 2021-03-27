@@ -4,6 +4,27 @@ body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+a{
+    text-decoration: underline;
+    color:#000;
+}
+
+a:hover{
+    color:orangered;
+}
+
+a:active{
+    color:seagreen;
+}
+
+/* a:visited {
+    color: yellow;
+} */
+
+.clearfix {
+    clear:both;
+  }
+
 .container {
     border:solid;
     border-width:2px;
@@ -16,10 +37,22 @@ body {
     float: initial;
 }
 
+.stdpad {
+    padding:5px;
+}
+
+.translucent {
+    opacity: 80%;
+}
+
+.whitebg {
+    background-color: white;
+}
+
 .lightbox {
     background-color:lightgoldenrodyellow;
     float:right;
-    width:30%
+    width:60%
 
 }
 
@@ -27,7 +60,7 @@ body {
     background-color:#444;
     color:#eee;
     float:left;
-    width:69%;
+    width:39%;
 }
 
 .container h3 {
@@ -63,26 +96,23 @@ body {
     box-sizing: border-box;
     float: initial;
 }
-    
 
-a{
-    text-decoration: underline;
-    color:#000;
+.my-form {
+    margin-right: 5px;
+    width: 50%;
+    float:left
 }
 
-a:hover{
-    color:orangered;
+.my-form .form-group {
+    padding-bottom: 15px;
 }
 
-a:active{
-    color:seagreen;
+.my-form label {
+    display: block;
 }
 
-/* a:visited {
-    color: #222;
-} */
+.my-form input{
+    padding: 8px 0px;
+    width: 100%;
+}
 
-.clearfix {
-    clear:both;
-    /*overflow: auto;*/
-  }

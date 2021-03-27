@@ -4,8 +4,9 @@
 		<title>HTML Practice Page</title>
 		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
-	<body>
+	<body background="Images/doodle-mail.jpg" 
 		<!-- This is a comment -->
+		<div class="translucent whitebg stdpad">
 		<h1>Top Level Heading</h1>
 		<h2>Second Level Heading</h2>
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -15,7 +16,7 @@
 			<p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
 			<p> <a href="https://news.google.co.in" target="_blank">Google news here</a></p> 
 			<p><strong>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong></p>
-			
+		</div>	
 			<div class = "container darkbox">
 			<h3>Here's a bulleted list</h3>
 			<ul>
@@ -40,7 +41,7 @@
 			<div class=tablecontainer>
 			<h3>Here comes a table</h3>
 			<table>
-				<thead>
+				<thead style="text-align: left;">
 					<th>Name</th>
 					<th>Speciality</th>
 					<th>Remarks</th>
@@ -69,7 +70,7 @@
 			</div>
 
 			<hr>
-			<form action = process.php method = "POST">
+			<form action = process.php method = "POST" class="my-form whitebg translucent stdpad">
 				<DIV>
 					<label>First Name</label>
 					<input type="text" name="firstName">
@@ -98,11 +99,10 @@
 
 			</form>
 				<a href="Images/Birds.jpg" target="_blank">
-					<img src="Images/Birds.jpg" width = 300>
+					<img src="Images/Birds.jpg" width = 290>
 				</a>
-			<hr>
-			<blockquote>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, `and what is the use of a book,' thought Alice `without pictures or conversation?'</blockquote>
-			<p><cite>Alice in Wonderland</cite> by Lewis Carol</p>
-
+				<small> <blockquote>Alice was beginning to get very tired of sitting by her sister on the bank, and of having nothing to do: once or twice she had peeped into the book her sister was reading, but it had no pictures or conversations in it, `and what is the use of a book,' thought Alice `without pictures or conversation?'</blockquote>
+			<cite>Alice in Wonderland</cite> by Lewis Carol</small>
+				<div class="clearfix"><hr></div>
 	</body>
 </html>
